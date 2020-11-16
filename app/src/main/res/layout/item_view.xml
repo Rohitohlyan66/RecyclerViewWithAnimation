@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:id="@+id/card_view"
+    android:layout_margin="6dp"
+    app:cardBackgroundColor="@color/dark_black"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp">
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="This is the text which i want to show"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+
+</androidx.cardview.widget.CardView>
